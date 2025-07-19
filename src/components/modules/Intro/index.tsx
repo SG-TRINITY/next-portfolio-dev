@@ -8,13 +8,13 @@ const Intro = () => (
     <div className="container py-16 flex items-center flex-col md:flex-row justify-between">
       <div className="flex-1 w-full md:w-1/2 mb-8 md:mb-0">
         <h1 className="mb-8 text-3xl md:text-5xl font-bold text-brand-primary dark:text-white typography">
-          Welcome{' '}
+          Bonjour{' '}
           <span role="img" aria-label="Waving hand">
-            👋
+            (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
           </span>
         </h1>
         <h2 className="mb-[2.5rem] text-2xl md:text-4xl text-brand-secondary dark:text-slate-200 typography">
-          I’m John Doe and I’m a software engineer!
+          Je suis Jane, un fille qui veut juste coder et créer des choses incroyables.
         </h2>
         <Link href="#contact" className="button button-primary">
           Hire me
@@ -23,7 +23,7 @@ const Intro = () => (
       <div className="flex-1 w-full md:w-1/2">
         <Image
           src="/assets/illustrations/dev.svg"
-          alt="I’m John and I’m a JAMStack engineer!"
+          alt="I’m Jane and I’m a creativity "
           width={463}
           height={273}
           priority
