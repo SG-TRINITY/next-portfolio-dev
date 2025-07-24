@@ -15,9 +15,7 @@ const Skills = () => (
       <div className="flex-none lg:flex-1 pl-0 lg:pl-8">
         <h2 className="mb-8 text-3xl font-bold text-brand-primary dark:text-white typography">More about me</h2>
         <p className="mb-[2.5rem] font-normal text-xl md:text-[26px] text-brand-secondary dark:text-slate-200 leading-[34px] typography">
-          I’m Shrishty, a gal who just wants to code and create amazing things. I am a Software Engineer with a passion for
-					Backend and DevOps. I love building scalable applications and automating processes to improve efficiency.
-        </p>
+          I’m Shrishty, a gal who just wants to code and create amazing things. I am a Computer Science student with a passion for Frontend development and design. I love building beautiful and user-friendly interfaces that make the web a better place.
         <Link href="#contact" className="button button-primary">
           Hire me
         </Link>
