@@ -57,9 +57,9 @@ To Env variables section.
 6. Make sure to edit the `src/data/config.ts` file
    ```ts
    const config = {
-     defaultTitle: 'John Doe',
+     defaultTitle: 'Shrishty G',
      url: process.env.NEXT_PUBLIC_PORTFOLIO_URL!,
-     defaultDescription: 'I’m John Doe and I’m a Software Engineer!',
+     defaultDescription: 'I’m Shrishty G and I’m a Software Engineer!',
      googleAnalyticsID: 'G-xxxxxx',
      twitter: '@smakosh',
    };
