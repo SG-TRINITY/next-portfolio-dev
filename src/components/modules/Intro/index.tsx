@@ -21,13 +21,13 @@ const Intro = () => (
         </Link>
       </div>
       <div className="flex-1 w-full md:w-1/2">
-        <Image
+        {/* <Image
           src="/assets/illustrations/dev.svg"
           alt="I’m Shrishty and I’m a creativity "
           width={463}
           height={273}
           priority
-        />
+        /> */}
       </div>
     </div>
   </div>
