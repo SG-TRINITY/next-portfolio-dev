@@ -1,26 +1,32 @@
 [
   {
     "id": 0,
-    "name": "Telegram",
-    "link": "https://t.me/smakosh",
-    "icon": "/assets/social/telegram.svg"
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/shrishty-g-260a032b6/",
+    "icon": "/assets/social/mdi_linkedin.svg"
   },
   {
     "id": 1,
     "name": "Github",
     "link": "https://github.com/SG-TRINITY",
-    "icon": "/assets/social/github.svg"
+    "icon": "/assets/social/mdi_github.svg"
   },
   {
     "id": 2,
-    "name": "StackOverflow",
-    "link": "https://stackoverflow.com/users/story/7396786",
-    "icon": "/assets/social/stackoverflow.svg"
+    "name": "Email",
+    "link": "mailto:shrishtygsk@gmail.com",
+    "icon": "/assets/social/mdi_gmail.svg"
   },
   {
     "id": 3,
-    "name": "Twitter",
-    "link": "https://twitter.com/smakosh",
-    "icon": "/assets/social/twitter.svg"
-  }
+    "name": "Instagram",
+    "link": "https://www.instagram.com/gn_shrishty/",
+    "icon": "/assets/social/mdi_instagram.svg"
+  },
+	{
+		"id": 4,
+		"name": "Facebook",
+		"link": "https://www.facebook.com/donna.noble.9699523/",
+		"icon": "/assets/social/mdi_facebook.svg"
+	}
 ]
