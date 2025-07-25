@@ -1,10 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 614.622 768.265">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #efeeff;
-      }
-    </style>
-  </defs>
-  <path id="Path_29" data-name="Path 29" class="cls-1" d="M0,1467.864S10.75,1717.88,168.635,1767.5s379.947,197.995,441.42,302.151S0,2298.293,0,2200.875-1.328,1467.38,0,1467.864Z" transform="translate(0.59 -1467.864)"/>
+<svg width="615" height="769" viewBox="0 0 615 769" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8_4)">
+<path d="M0.589978 0.500032C0.589978 0.500032 11.34 250.516 169.225 300.136C327.11 349.756 549.172 498.131 610.645 602.287C672.118 706.443 0.589978 830.929 0.589978 733.511C0.589978 636.093 -0.738022 0.0160319 0.589978 0.500032Z" fill="url(#paint0_linear_8_4)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_8_4" x1="307.311" y1="0.499756" x2="307.311" y2="768.764" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D97706"/>
+<stop offset="0.5" stop-color="#DC2626"/>
+<stop offset="1" stop-color="#7E22CE"/>
+</linearGradient>
+<clipPath id="clip0_8_4">
+<rect width="614.622" height="768.265" fill="white" transform="translate(0 0.5)"/>
+</clipPath>
+</defs>
 </svg>

@@ -1,10 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133.616 263.747">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #efeeff;
-      }
-    </style>
-  </defs>
-  <path id="Path_300" data-name="Path 300" class="cls-1" d="M1920,2358.631s-146.923,99.446-132.638,199.992S1920,2610.7,1920,2610.7Z" transform="translate(-1786.384 -2358.631)"/>
+<svg width="134" height="265" viewBox="0 0 134 265" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_8_2)">
+<path d="M133.616 0.500122C133.616 0.500122 -13.307 99.9461 0.978031 200.492C15.263 301.038 133.616 252.569 133.616 252.569V0.500122Z" fill="url(#paint0_linear_8_2)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_8_2" x1="66.808" y1="0.500122" x2="66.808" y2="264.248" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D97706"/>
+<stop offset="0.5" stop-color="#DC2626"/>
+<stop offset="1" stop-color="#7E22CE"/>
+</linearGradient>
+<clipPath id="clip0_8_2">
+<rect width="133.616" height="263.747" fill="white" transform="translate(0 0.5)"/>
+</clipPath>
+</defs>
 </svg>
