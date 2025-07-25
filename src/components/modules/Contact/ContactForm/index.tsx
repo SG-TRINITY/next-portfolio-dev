@@ -4,7 +4,7 @@ import { useForm as useFormspree } from '@formspree/react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 
-import Recaptcha from 'react-google-recaptcha';
+//import Recaptcha from 'react-google-recaptcha';
 import * as z from 'zod';
 import { cn } from 'lib/utils';
 
@@ -12,8 +12,8 @@ const formSchema = z.object({
   name: z.string().min(1, 'Full name field is required'),
   email: z.string().email('Invalid email').min(1, 'Email field is required'),
   message: z.string().min(1, 'Message field is required'),
-  recaptcha:
-    process.env.NODE_ENV !== 'development' ? z.string().min(1, 'Robots are not welcome yet!') : z.string().optional(),
+  // recaptcha:
+  //   process.env.NODE_ENV !== 'development' ? z.string().min(1, 'Robots are not welcome yet!') : z.string().optional(),
 });
 
 type ContactFormData = z.infer<typeof formSchema>;
@@ -97,7 +97,7 @@ const ContactForm = () => {
         {errors.message && <span className="text-red-600 block mt-1">{errors.message.message}</span>}
       </div>
 
-      {process.env.NODE_ENV !== 'development' && (
+      {/* {process.env.NODE_ENV !== 'development' && (
         <div className="relative mb-4">
           <Recaptcha
             sitekey={process.env.NEXT_PUBLIC_PORTFOLIO_RECAPTCHA_KEY!}
@@ -105,7 +105,7 @@ const ContactForm = () => {
           />
           {errors.recaptcha && <span className="text-red-600 block mt-1">{errors.recaptcha.message}</span>}
         </div>
-      )}
+      )} */}
 
       {state.succeeded && (
         <div className="relative mb-4">
