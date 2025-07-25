@@ -7,10 +7,7 @@ const Footer = () => (
       <div className="mb-8 md:mb-0">
         <h2 className="text-brand-primary min-[2170px]:dark:text-white font-bold text-2xl mb-4">Shrishty G</h2>
         <span className="text-brand-primary min-[2170px]:dark:text-white">
-          © All rights are reserved | {new Date().getFullYear()} | Made with{' '}
-          <span aria-label="love" role="img">
-            💖
-          </span>{' '}
+          © All rights are reserved | {new Date().getFullYear()} | Original template made {' '}
           by{' '}
           <a
             href="https://smakosh.com/?ref=portfolio-dev"
