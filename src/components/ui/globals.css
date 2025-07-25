@@ -39,7 +39,7 @@
 }
 
 .typography {
-  @apply dark:mix-blend-difference dark:lg:mix-blend-normal;
+  @apply dark:lg:mix-blend-normal;
 }
 
 .button {
