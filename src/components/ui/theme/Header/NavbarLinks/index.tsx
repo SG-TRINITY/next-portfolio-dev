@@ -27,21 +27,21 @@ const NavbarLinks = ({ desktop }: NavbarLinksProps) => {
     >
       <Link
         href={`${pathname}#about`}
-        className="text-black mb-4 lg:mb-0 mr-0 lg:mr-4 dark:text-white"
+        className="text-white drop-shadow-sm hover:text-gray-300 transition-colors mb-4 lg:mb-0 mr-0 lg:mr-4"
         scroll
       >
         About
       </Link>
       <Link
         href={`${pathname}#projects`}
-        className="text-black mb-4 lg:mb-0 mr-0 lg:mr-4 dark:text-white"
+        className="text-white drop-shadow-sm hover:text-gray-300 transition-colors mb-4 lg:mb-0 mr-0 lg:mr-4"
         scroll
       >
         Projects
       </Link>
       <Link
         href={`${pathname}#contact`}
-        className="text-black mb-4 lg:mb-0 mr-0 lg:mr-4 dark:text-white"
+        className="text-white drop-shadow-sm hover:text-gray-300 transition-colors mb-4 lg:mb-0 mr-0 lg:mr-4"
         scroll
       >
         Contact
