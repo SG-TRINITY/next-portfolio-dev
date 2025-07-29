@@ -20,12 +20,12 @@ const Intro = () => (
           Hire me
         </Link>
       </div>
-      <div className="flex-1 w-full md:w-1/2">
+      <div className="flex-1 w-full md:w-1/2 ml-10 ">
         <Image
           src="/assets/illustrations/13.svg"
           alt="I'm Shrishty and I'm a creativity "
-          width={463}
-          height={273}
+          width={500}
+          height={500}
           priority
           //className="dark:invert"
         />
