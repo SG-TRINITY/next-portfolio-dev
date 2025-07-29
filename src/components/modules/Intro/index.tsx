@@ -21,13 +21,14 @@ const Intro = () => (
         </Link>
       </div>
       <div className="flex-1 w-full md:w-1/2">
-        {/* <Image
-          src="/assets/illustrations/dev.svg"
-          alt="I’m Shrishty and I’m a creativity "
+        <Image
+          src="/assets/illustrations/13.svg"
+          alt="I'm Shrishty and I'm a creativity "
           width={463}
           height={273}
           priority
-        /> */}
+          //className="dark:invert"
+        />
       </div>
     </div>
   </div>
