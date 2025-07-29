@@ -6,14 +6,14 @@ const Contact = () => (
     <div className="flex-none w-full lg:w-auto lg:flex-1 pr-0 lg:pr-8 order-2 lg:order-1">
       <ContactForm />
     </div>
-    <div className="flex-none w-full lg:w-auto lg:flex-1 order-1 lg:order-2 mb-8 lg:mb-0">
-      {/* <Image
-        src="/assets/illustrations/contact.svg"
+    <div className="flex-none w-full lg:w-auto lg:flex-1 order-1 lg:order-2 mb-8 lg:mb-0 ml-50">
+      <Image
+        src="/assets/illustrations/10.svg"
         alt="I’m Shrishty and I’m a Backend & Devops engineer!"
         className="w-auto h-auto"
         width={498}
         height={313}
-      /> */}
+      />
     </div>
   </div>
 );
